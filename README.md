@@ -1,0 +1,1 @@
+# Extrair_texto_imagens_de_um_f-rum
