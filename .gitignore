@@ -1,22 +1,68 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
+# Python### AL ###
+
+__pycache__/#Template for AL projects for Dynamics 365 Business Central
+
+*.py[cod]#launch.json folder
+
+*$py.class.vscode/
+
+*.so#Cache folder
+
+.Python.alcache/
+
+env/#Symbols folder
+
+venv/.alpackages/
+
+ENV/#Snapshots folder
+
+env.bak/.snapshots/
+
+venv.bak/#Testing Output folder
+
 .output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
+
+# Selenium#Extension App-file
+
+drivers/*.app
+
+*.log#Rapid Application Development File
+
+selenium-debug.lograd.json
+
 #Translation Base-file
-*.g.xlf
-#License-file
+
+# VS Code*.g.xlf
+
+.vscode/#License-file
+
 *.flf
-#Test results file
-TestResults.xml
+
+# Arquivos temporários#Test results file
+
+*.tmpTestResults.xml
+*.temp
+temp/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Credenciais (caso sejam separadas)
+credentials.json
+config.json
+
+# Chrome profile temporário
+chrome_profile/
+
+# Logs do sistema
+debug.log
+error.log
+
+# Dados extraídos (não versionar)
+imagens_extraidas/
+topico_completo/
+posts_corrigidos_final.json
+forum_posts*.json
+posts*.json
+posts_corrigidos_final.json
